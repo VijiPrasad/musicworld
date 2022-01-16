@@ -2,5 +2,146 @@
           margin: 0;
           box-sizing: border-box;
       }
-      /* Your code goes here */
-      
+.box {
+width: 80px;
+height: 50px;
+
+}
+ .icon{
+     bottom: 0;
+     top: 2px;
+     position: absolute;
+     margin-left: 40px;
+ }     
+ .icon2{
+     margin-left: 440px;
+     margin-top: 385px;
+     top: 10px;
+     position: absolute;
+ }
+ .icon3{
+     margin-left: 560px;
+     top: 470px;
+     position: absolute;
+ }
+ .icon4{
+     margin-left: 440px;
+     bottom: 0;
+     top: 465px;
+     position: absolute;
+ }
+ .icon5{
+     margin-left: 560px;
+     bottom: 0;
+     top: 400px;
+     position: absolute;
+ }
+ .icon6{
+     margin-left: 200px;
+     bottom: 0;
+     top: 70px;
+     position: absolute;
+ }
+ .icon7{
+     margin-left: 500px;
+     bottom: 0;
+     top: 500px;
+     position: absolute;
+     
+ }
+ .icon8{
+     margin-left: 500px;
+     bottom: 0;
+     top: 350px;
+     position: absolute;
+ }
+ h1{
+     display: grid;
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    word-break: var(300px);
+    top: 150px;
+    bottom: 300px;
+    margin-left: 40px;
+    position: absolute;
+    color: white;
+    
+ }
+ h2{
+     top: 200px;
+     display: grid;
+     text-align: center;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     margin-left: 95px;
+     position: absolute;
+     color: white;
+     font-size: 2rem;
+
+ }
+ h3{
+     top: 250px;
+     display: grid;
+     text-align: center;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     margin-left: 115px;
+     position: absolute;
+     color: white;
+     font-size: 2rem;
+    
+ }
+ .headphn{
+     margin-left: 300px;
+     margin-right: 400PX;
+     top: 300px;
+    margin-bottom: 400px;
+    background-color: transparent;
+    
+     
+ }
+ .circle{
+     display: flex;
+     width: 200px;
+     height: 200px;
+     background-color: red;
+     border-radius: 50%;
+     position: absolute;
+     top: 345px;
+     margin-left: 415px;
+
+     
+ }
+ .circle2{
+     display: flex;
+     width: 100px;
+     height: 100px;
+     background-color: transparent;
+     border-radius: 40%;
+     position: absolute;
+     top: 350px;
+     margin-left: 350px;
+ }
+
+
+ 
+
+ 
+@media only screen and (max-width: 414px ),
+            screen and (max-height:896) 
+
+
+{ 
+
+
+
+
+    .headphn{
+        display: inline-block;
+        max-height: 40px;
+        max-width: 20px;
+    }
+.box{
+    max-width: 414px;
+    max-height: 896px;
+}
+}  
